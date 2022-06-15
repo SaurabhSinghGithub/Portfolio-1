@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar CSS*/
+
+.boxContainer {
+    display: flex;
+
+}
+
+.boxContainer .navbar {
+    width: 20vw;
+    height: 100vh;
+    background-color: #bfb2b2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    padding: 45px 0px;
+    transition: transform 0.5s ease-in;
+    z-index: 1;
+
+
+
+}
+
+.boxContainer .navbar li {
+    list-style-type: none;
+    padding: 30px 0px;
+    font-size: 1.5rem;
+
+
+}
+
+.boxContainer .navbar li a {
+    text-decoration: none;
+    color: black;
+}
+
+.boxContainer .navbar li a:hover {
+    color: rgb(189, 223, 223);
+}
+
+
+/* Main CSS */
+
+.main {
+    width: 70vw;
+    /* background-color: #edf1e7; */
+    /* padding: 50px 100px; */
+    position: absolute;
+    z-index: -2;
+    top: 100px;
+    left: 89px;
+
+}
+
+.main .mainContent {}
+
+.main .mainContent .about {
+    width: 70%;
+    margin: 20px 0px;
+}
+
+.main .mainContent .btn {
+    margin: 0px 5px;
+    padding: 5px;
+    border-radius: 15px;
+    color: black;
+    background-color: white;
+
+
+
+}
+
+.main .mainContent .btn:hover {
+    color: white;
+    background-color: rgb(81, 72, 72);
+
+}
+
+
+.main .mainImage {}
+
+.main .mainImage img {
+    width: 70%;
+    margin: 25px 0px;
+
+}
+
+
+/* Contact CSS */
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form h1,
+input,
+textarea {
+    margin: 10px 0px;
+}
+
+.form input {
+    border-radius: 10px;
+}
+
+
+.submit {
+
+    padding: 5px;
+    border-radius: 15px;
+    color: black;
+    background-color: white;
+}
+
+.submit:hover {
+    color: white;
+    background-color: rgb(81, 72, 72);
+}
+
+
+
+/* Blogs CSS */
+
+.main .mainItem {
+
+    margin: 35px 0px;
+
+
+}
+
+
+
+.mainItem .btn {
+    margin: 10px 0px;
+    padding: 5px;
+    border-radius: 15px;
+    color: black;
+    background-color: white;
+
+}
+
+.mainItem .btn:hover {
+    color: white;
+    background-color: rgb(81, 72, 72);
+
+}
+
+
+
+/* About Me CSS */
+
+
+.item1 {
+    width: 160px;
+    height: 10px;
+    background-color: red;
+}
+
+.item2 {
+    width: 180px;
+    height: 10px;
+    background-color: rgb(255, 255, 0);
+}
+
+.item3 {
+    width: 170px;
+    height: 10px;
+    background-color: rgb(0, 238, 255);
+}
+
+.item4 {
+    width: 200px;
+    height: 10px;
+    background-color: rgb(247, 46, 250);
+}
+
+.item5 {
+    width: 155px;
+    height: 10px;
+    background-color: rgb(38, 235, 41);
+}
+
+.aboutMe h1,
+p {
+
+    margin: 10px 0px;
+
+
+}
+
+.mySkills {
+
+    margin: 20px 0px;
+
+
+}
+
+.mySkills h1,
+p {
+
+    margin: 10px 0px;
+
+
+}
+
+
+/* Hamburger CSS */
+
+.hamburger{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 2;
+}
+
+/* #han{
+    position: absolute;
+    top: 5px;
+}
+
+#cross{
+    position: absolute;
+  
+} */
+
+.navhide{
+    position: absolute;
+    transform: translate(-40vw);
+ 
+}
+
